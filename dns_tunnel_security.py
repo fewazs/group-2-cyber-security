@@ -14,8 +14,7 @@ Simple DNS tunneling detector using heuristics:
 Usage:
     sudo python3 dns_tunnel_detector.py             # live sniffing on default iface
     python3 dns_tunnel_detector.py --pcap file.pcap  # analyze pcap file
-
-Author: ChatGPT (example detector)
+    
 """
 
 import argparse
