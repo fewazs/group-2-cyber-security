@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": "2025-10-08T04:00:00Z",
+    "query": "example.com",
+    "response": "93.184.216.34",
+    "type": "A"
+  },
+  {
+    "timestamp": "2025-10-08T04:01:00Z",
+    "query": "google.com",
+    "response": "142.250.190.78",
+    "type": "A"
+  },
+  {
+    "timestamp": "2025-10-08T04:02:00Z",
+    "query": "example.org",
+    "response": "93.184.216.34",
+    "type": "A"
+  }
+]
