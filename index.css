@@ -1,0 +1,18 @@
+/* Basic styling for dashboard */
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+}
+h1 {
+  color: #2c3e50;
+}
+pre {
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+ul {
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
