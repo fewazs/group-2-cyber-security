@@ -1,0 +1,2 @@
+_spotify-connect._tcp.local.
+_spotify-social-listening._tcp.local.
