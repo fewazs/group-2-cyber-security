@@ -1,0 +1,26 @@
+# Node
+node_modules/
+dashboard/react-frontend/node_modules/
+dashboard/react-frontend/build/
+build/
+
+# Python
+*.pyc
+__pycache__/
+
+# Logs
+*.log
+
+# IDE / Editor
+.vscode/
+.DS_Store
+
+# Test / temp
+*.tmp
+
+# Embedded repo or local artifacts
+project-v2/
+
+# Lockfiles (optional to track/remove)
+# package-lock.json
+# yarn.lock
