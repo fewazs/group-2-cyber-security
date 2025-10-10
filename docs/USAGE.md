@@ -1,17 +1,32 @@
-# DNS Monitoring Tool - Detailed Usage Guide
+# DNS Tunneling Prevention and Alert System Documentation
 
-This document provides a comprehensive guide to using the DNS capture scripts, Admin Dashboard, and test data.
+## Overview
+This system detects and prevents DNS tunneling attacks using pattern-based analysis, real-time alerts, and a monitoring dashboard.
 
----
+## Components
+- **capture/dns_capture.py**: Captures DNS packets and extracts features.
+- **detection/dns_detection.py**: Applies detection rules to identify tunneling.
+- **prevention/prevent_and_alert.py**: Blocks suspicious domains/IPs and sends alerts.
+- **dashboard/app.py**: Flask backend for dashboard API.
+- **test_data/dns_test_data.json**: Example DNS traffic data for testing.
 
-## 1. Capture DNS Traffic (Python)
+## Usage
+1. Run `dns_capture.py` to capture DNS traffic.
+2. Run `dns_detection.py` to analyze and detect tunneling.
+3. Run `prevent_and_alert.py` to block and alert on suspicious activity.
+4. Start the Flask dashboard with `python dashboard/app.py`.
 
-**File:** `capture/dns_capture.py`
+## Customization
+- Detection thresholds and rules can be adjusted in `dns_detection.py`.
+- Prevention actions (blocking, alerting) can be integrated with real firewall and notification systems.
 
-**Purpose:**  
-Captures DNS queries and responses from your network in real-time and saves them as a JSON file for analysis and visualization.
+## Requirements
+- Python 3.x
+- Scapy
+- Flask
 
-**Steps:**
-1. **Install dependencies:**  
-   ```bash
-   pip install scapy
+## Testing
+Use the sample data in `test_data/dns_test_data.json` to simulate detection and prevention.
+
+## License
+Open-source for educational and research purposes.
